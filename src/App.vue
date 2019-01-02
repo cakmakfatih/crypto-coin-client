@@ -52,7 +52,7 @@ declare module 'vue/types/vue' {
   },
   data() {
     return {
-      apiEndpoint: "http://127.0.0.1:3000/coin?search=",
+      apiEndpoint: "https://kns-crypto-search.herokuapp.com/coin?search=",
       result: null,
       loading: null,
       query: ""
