@@ -60,7 +60,7 @@ declare module 'vue/types/vue' {
   },
   methods: {
     async fetchData(query: string) {
-      if(!(this.result && this.result.status === "success" && query.toUpperCase() === this.result.symbol.toUpperCase()) && query !== this.lastSearch) {
+      if(!(this.result && this.result.status === "success" && query.toUpperCase() === this.result!.symbol.toUpperCase()) && query !== this.lastSearch) {
         this.lastSearch = query;
         this.loading = true;
         let res = await fetch(`${this.apiEndpoint}${query}`).then(re => re.json());
