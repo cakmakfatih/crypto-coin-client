@@ -1,29 +1,7 @@
-# client
+# CryptoSearcher - Client
 
-## Project setup
-```
-yarn install
-```
+### Website
+App is hosted at [here](https://kns-crypto-searcher.herokuapp.com/).
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Serverside
+Serverside code repo is [here](https://github.com/cakmakfatih/crypto-coin-server).

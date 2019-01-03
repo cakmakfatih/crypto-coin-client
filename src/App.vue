@@ -107,6 +107,9 @@ form {
 .field > .control > input {
   min-width: 40vw;
 }
+span.subtitle {
+  text-align: center;
+}
 h2.subtitle {
   text-align: center;
 }
